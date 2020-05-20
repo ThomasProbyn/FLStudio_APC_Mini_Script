@@ -5,7 +5,7 @@ A script to get the AKAI APC Mini to work with FL.
 
 2) Select the APC profile in F10 MIDI settings.
 
-3) Use the round buttons along the bottom to select banks 1-8 left to right (the shift button does nothing.). When you select a new bank, the information box at the top of FL will tell you the bank you have selected, and the channels in that bank EG: Bank 2 selected (9-17)
+3) Use the round buttons along the bottom to select banks 1-8 left to right (the shift button turns off LEDs nothing.). When you select a new bank, the information box at the top of FL will tell you the bank you have selected, and the channels in that bank EG: Bank 2 selected (9-17)
 
 4) Banks 9-14 are the buttons on the side, starting at the top, working your way down. They will also display the hint.
 
