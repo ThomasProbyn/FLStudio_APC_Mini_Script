@@ -1,4 +1,4 @@
-# FLStudio_APC_Mini_Script
+# FL Studio AKAI APC Mini Script
 A script to get the AKAI APC Mini to work with FL. 
 
 1) Download the script, unzip it and follow the Image-Line instructions for setting up a custom midi controller profile (Basically save the Python file to {User data folder}\FL Studio\Settings\Hardware\APC Mini\device_apcmini.py).
