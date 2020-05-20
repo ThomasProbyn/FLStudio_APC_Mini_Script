@@ -1,0 +1,3 @@
+20/05/2020 17:27: Let there be light! The LEDs now light up to show what bank you are in.
+
+20/05/2020 14:58: Fixed an issue where none-existant bank 0 could be selected with note 64.
