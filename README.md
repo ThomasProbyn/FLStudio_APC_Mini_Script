@@ -12,5 +12,3 @@ A script to get the AKAI APC Mini to work with FL.
 5) Move the sliders to move the mixer channels. Sliders are assigned per bank, left to right, so in bank 4, slider 8 will control channel 34.
 
 Hope you enjoy this as much as I enjoyed making it. The script file is open source, so feel free to make any changes you like, and share them if you want to.
-
-PS: Thanks to Scott for including this on the official list of user scripts!
