@@ -1,2 +1,2 @@
 #Add your ideas/feature requests here if you have them!
-Use the pad buttons as a transport controller
+Use the pad buttons as a transport controller // not possible yet because the API cannot poll the transport.
