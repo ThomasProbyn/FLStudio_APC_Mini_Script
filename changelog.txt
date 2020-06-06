@@ -1,3 +1,4 @@
 1.0.1 Fixed an issue where none-existant bank 0 could be selected with note 64.
 1.0.2 Let there be light! The LEDs now light up to show what bank you are in.
 1.0.3 Allowed the shift key to turn off LEDs so that they don't remain on when FL closes
+1.0.4 Added a DeInit clause to stop LEDs from remaining on after close, shift functionality remains from 1.0.3, general bug fixes
