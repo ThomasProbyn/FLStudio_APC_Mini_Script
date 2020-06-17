@@ -2,3 +2,5 @@
 1.0.2 Let there be light! The LEDs now light up to show what bank you are in.
 1.0.3 Allowed the shift key to turn off LEDs so that they don't remain on when FL closes
 1.0.4 Added a DeInit clause to stop LEDs from remaining on after close, shift functionality remains from 1.0.3, general bug fixes
+1.0.5 Added a request from von dork on the Image-Line forum to allow the user to change the LED colour
+1.0.6 Added general bug fixes and sticky key issues
