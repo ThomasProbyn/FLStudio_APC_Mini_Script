@@ -7,6 +7,8 @@ import midi
 import device
 import ui
 
+selectedColour = 'Red'
+
 def OnInit():
 	global selectedBank #Make the selectedBank Variable
 	selectedBank = 1 #Default the bank selector to 1
@@ -67,10 +69,24 @@ def lightFPC():
 	fpcpadsbase = [60, 52, 44, 36]
 	for x in range(0, len(fpcpadsbase)):
 		for y in range(0, 4):
-			device.midiOutMsg(0x90 + (fpcpadsbase[x]+y << 8) + (0x05 << 16))
+			device.midiOutMsg(0x90 + (fpcpadsbase[x]+y << 8) + (ledColour(selectedColour) << 16))
 
 def tempoUp():
 	pass
 
 def tempoDown():
 	pass
+
+def ledColour(colourText):
+	if colourText == 'Green':
+		return(1)
+	elif colourText == 'GreenFlashing':
+		return(2)
+	elif colourText == 'Red':
+		return(3)
+	elif colourText == 'RedFlashing':
+		return(4)
+	elif colourText == 'Yellow':
+		return(5)
+	elif colourText == 'YellowFlashing':
+		return(6)
