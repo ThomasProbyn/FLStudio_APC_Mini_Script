@@ -22,7 +22,7 @@ def OnDeInit(): #When FL is closed, clean up everything
 
 
 def OnNoteOn(event):   #Let's tell FL what to do when it recieves a note on event through midi
-	print('Midi note on:', event.data1, " ", event.data2)
+	#print('Midi note on:', event.data1, " ", event.data2)
 	if event.data1 > 63 and event.data1 < 81 or event.data1 > 81 and event.data1 < 88:	#Check to see if the note is in the range used by the patch selector
 		event.handled = True #Start by telling FL we are dealing with this note to stop it from playing a tone
 		setPatchBank(event.data1) #If it is, pass it through to the function that selects patches
@@ -35,7 +35,12 @@ def OnNoteOn(event):   #Let's tell FL what to do when it recieves a note on even
 		event.handled = False #Allows you to continue to use the pads inside of the FPC if you want to
 
 def OnNoteOff(event):	#Tell FL what to do with note off data
-	event.handled = True	#Not much here, just stop FL from getting too excited and playing a tone
+	if event.data1 > 63 and event.data1 < 81 or event.data1 > 81 and event.data1 < 88:
+		event.handled = True
+	elif event.data1 == 98:
+		event.handled = True
+	else:
+		event.handled = False
 
 
 
