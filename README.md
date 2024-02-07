@@ -1,3 +1,4 @@
+WARNING: I don't use FL Studio or this MIDI controller any more. This script is wildly outdated. Better scripts exist. Use with caution, but it is useful as a template of how to control certain features of the controller from within Python. You have been warned!
 # FL Studio AKAI APC Mini Script
 A script to get the AKAI APC Mini to work with FL. 
 
